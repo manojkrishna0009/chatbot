@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_chatbot_1693413446974-pr-trigger-input-set
+  identifier: Build_chatbot_1693413446974prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_chatbot_1693413446974
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>

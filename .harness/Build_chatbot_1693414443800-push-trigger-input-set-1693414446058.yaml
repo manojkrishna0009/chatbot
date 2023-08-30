@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_chatbot_1693414443800-push-trigger-input-set
+  identifier: Build_chatbot_1693414443800pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: demo1
+  pipeline:
+    identifier: Build_chatbot_1693414443800
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
